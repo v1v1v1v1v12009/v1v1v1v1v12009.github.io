@@ -1,10 +1,11 @@
 div = document.getElementById("divi");
 text = document.getElementById("texti");
-pass = 2009
 
 function check(){
-  if (text.value == pass){
+  if (text.value == 2009){
     div.style.visibility = "visible";
     alert("מחובר בהצלחה!");
+  }else{
+    alert("סיסמא שגויה!")
   }
 }
